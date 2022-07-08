@@ -16,7 +16,7 @@ It is very easy to use this script.
 3. Copy ```primercheck.sh``` files to the same folder. Open it, change Line 4, primer.txt to the name of correspond primer files. for example: if the species of your genome dataset are *Sreptococcus suis*, you should change ```primer.txt``` to ```S_suis_primer.txt```.
 4. Open a terminal and into the folder, get in the evironment if you create one by conda, type  
 ``` shell
-bash [specie_name.txt].sh
+bash primercheck.sh
 ```
   and enter.  
 5. Wait to it finish. 
