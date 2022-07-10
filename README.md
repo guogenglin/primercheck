@@ -1,7 +1,7 @@
 # primercheck
-Rapid in silico prediction of bacterial serotype by electro-PCR
+Rapid in silico prediction of bacteria serotype by electro-PCR
 # What is it?
-This simple shell script is aiming for rapid batch screen the presence of target gene in numerous genome sequence dataset and generate a easy-read table. Here we provide 5 example primer files for prediction serotype of four most common swine bacterial pathogens, *Streptococcus suis*, *Glaesserella parasuis*, *Actinobacillus pleuropneumoniae* and *Pasteurella multocida*. In fact, you can change the primers to any genes(clusters) you want to detect, just follow our template.
+This simple shell script is aiming for rapid batch screen the presence of target gene in numerous genome sequence dataset and generate a easy-read table. Here we provide 3 example primer files for prediction serotype of three most common swine bacterial pathogens, *Streptococcus suis*, *Glaesserella parasuis*, and *Actinobacillus pleuropneumoniae*. In fact, you can change the primers to any genes(clusters) you want to detect, just follow our template.
 # Why write it?
 It is very easy for a bioinformatican to manipulate the bioinformatic software, however, for those people from other area, from "This software can do it" to "I can handle this software to do it" is a very long way to go. So, even if this is a very simple shell script, I wish it could help to people who do the basic diagnostic jobs or scientists who focus on microbiology or other area and urgently need bioinformatic method, to free them from manual work, they may need to do a lot of PCR manually or align the sequence one by one by using BLAST to get the result, which is very time consuming.
 # External Dependencies
