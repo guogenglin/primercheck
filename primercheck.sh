@@ -1,7 +1,7 @@
 #! /bin/bash
 #prepare the primer file
-#所需软件：samtools >= 1.9 BLAST+, primerserver2, tsv-utils
-#tsv-utils添加到PATH
+#dependencies：samtools >= 1.9 BLAST+, primerserver2, tsv-utils
+#tsv-utils add into PATH
 ls *.fna | while read id; do (samtools faidx $id); done
 ls *.fna | while read id; do (makeblastdb -in $id -dbtype nucl); done
 ls *.fna | while read id; do (primertool check primer.txt $id -t ${id%%.fna}.tsv); done
